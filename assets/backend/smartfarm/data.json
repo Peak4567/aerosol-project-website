@@ -1,0 +1,46 @@
+{
+    "sensors": {
+        "ph": 6.1,
+        "humidity": 80,
+        "temperature": 24.9,
+        "ec": 1.998,
+        "light": 7039,
+        "tds": 999,
+        "water_level": 79.9
+    },
+    "controls": {
+        "return_pump_on": false,
+        "mister_pump_on": false,
+        "uv_light_on": false,
+        "ultrasonic_mister_on": false,
+        "exhaust_fan_on": false,
+        "mist_fan_on": false,
+        "grow_light_on": false,
+        "ai_mode_enabled": false
+    },
+    "targets": {
+        "manual": {
+            "ph": 6.0,
+            "humidity": 80,
+            "temperature": 25,
+            "ec": 1.5,
+            "light": 7000,
+            "tds": 750
+        },
+        "program": {}
+    },
+    "growth_program": [],
+    "cultivation": {
+        "status": "idle",
+        "start_timestamp": null,
+        "pause_timestamp": null,
+        "accumulated_time": 0
+    },
+    "logs": [
+        {
+            "timestamp": "22/11/2025 13:19:00",
+            "level": "INFO",
+            "message": "Server Started"
+        }
+    ]
+}
